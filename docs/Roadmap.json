@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "repo": "StructuralAI-Lean-Spine",
+  "purpose": "Formal verification spine for StructuralAI runtime",
+  "phases": [
+    {
+      "phase": "Schema Layer",
+      "items": [
+        "StabilityState.lean",
+        "OperatorValues.lean",
+        "Thresholds.lean",
+        "RuntimePacket.lean",
+        "NormalizedPacket.lean"
+      ]
+    },
+    {
+      "phase": "Operator Semantics",
+      "items": [
+        "Curvature.lean",
+        "Spectral.lean",
+        "Holonomy.lean",
+        "Topology.lean",
+        "Fusion.lean"
+      ]
+    },
+    {
+      "phase": "Invariant Layer",
+      "items": [
+        "CurvatureInvariant.lean",
+        "SpectralInvariant.lean",
+        "HolonomyInvariant.lean",
+        "TopologyInvariant.lean",
+        "FusionInvariant.lean"
+      ]
+    },
+    {
+      "phase": "Proof Layer",
+      "items": [
+        "StabilitySoundness.lean",
+        "StabilityCompleteness.lean",
+        "OperatorBounds.lean"
+      ]
+    },
+    {
+      "phase": "Bridge Layer",
+      "items": [
+        "JSONDecoder.lean",
+        "SExpressionDecoder.lean",
+        "RuntimeToLeanAdapter.lean"
+      ]
+    },
+    {
+      "phase": "Test Layer",
+      "items": [
+        "SchemaTests.lean",
+        "InvariantTests.lean",
+        "ProofTests.lean"
+      ]
+    },
+    {
+      "phase": "Documentation Layer",
+      "items": [
+        "Architecture.md",
+        "Schema.md",
+        "Operators.md",
+        "Invariants.md",
+        "Proofs.md"
+      ]
+    }
+  ],
+  "provenance": {
+    "author": "Borealis S. Hedling",
+    "membrane": "Shared-Horizon",
+    "charter": "White Rose Epistemic Clarity Charter",
+    "timestamp": "2026-10-23T00:31:00+01:00"
+  }
+}
