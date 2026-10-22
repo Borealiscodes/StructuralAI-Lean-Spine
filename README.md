@@ -2,10 +2,13 @@
 
 Formal Verification Spine for the StructuralAI Runtime
 
-Welcome to the StructuralAI‑Lean‑Spine — the formal verification layer of the StructuralAI architecture.  
-This repository contains the Lean 4 structures, schemas, invariants, and proofs that correspond to the geometric operators and stability system implemented in the Julia runtime.
+Welcome to the StructuralAI‑Lean‑Spine — the formal verification layer of the
+StructuralAI architecture. This repository contains the Lean 4 structures,
+schemas, invariants, and proofs corresponding to the geometric operators and
+stability system implemented in the StructuralAI Julia runtime.
 
-This repo is part of the Shared‑Horizon collaboration membrane and implements the semantic layer of StructuralAI.
+This repo is part of the Shared‑Horizon collaboration membrane and implements
+the semantic layer of StructuralAI.
 
 ---
 
@@ -13,13 +16,14 @@ This repo is part of the Shared‑Horizon collaboration membrane and implements 
 
 The StructuralAI‑Lean‑Spine provides:
 
-- 🧩 Formal structures (e.g., StabilityState)  
-- 🧮 Operator invariants (curvature, spectral drift, holonomy, topology, fusion)  
-- 📐 Geometric safety predicates  
-- 🔒 Verification lemmas and theorems  
-- 🔄 JSON/S‑expression ingestion for runtime → Lean integration  
+- 🧩 Formal structures (e.g., StabilityState)
+- 🧮 Operator invariants (curvature, spectral drift, holonomy, topology, fusion)
+- 📐 Geometric safety predicates
+- 🔒 Verification lemmas and theorems
+- 🔄 JSON/S‑expression ingestion for runtime → Lean integration
 
-This repo ensures that the StructuralAI runtime’s geometric diagnostics can be formally reasoned about, verified, and proven safe.
+This repo ensures that the StructuralAI runtime’s geometric diagnostics can be
+formally reasoned about, verified, and proven safe.
 
 ---
 
@@ -42,41 +46,29 @@ This separation is a Shared‑Horizon architectural invariant.
 
 🟨 Key Components
 
-📁 src/Schema/
-Color tile: 🟦  
-Defines Lean structures matching the runtime’s exported JSON/S‑expressions.
+📁 src/Schema/ — 🟦
+Lean structures mirroring runtime JSON/S‑expressions.
 
-📁 src/Operators/
-Color tile: 🟧  
+📁 src/Operators/ — 🟧
 Formal definitions of geometric operators.
 
-📁 src/Invariants/
-Color tile: 🟩  
+📁 src/Invariants/ — 🟩
 Geometric invariants (bounded curvature, bounded spectral drift, etc.).
 
-📁 src/Proofs/
-Color tile: 🟪  
+📁 src/Proofs/ — 🟪
 Formal proofs of stability, soundness, and operator bounds.
 
-📁 src/Utils/
-Color tile: 🟫  
+📁 src/Utils/ — 🟫
 Helper lemmas, numeric bounds, structural utilities.
 
 ---
 
 🧭 Design Principles
 
-🟦 Separation of Layers
-Runtime and formal verification evolve independently.
-
-🟩 Semantic Stability
-Lean artifacts remain stable even when runtime math changes.
-
-🟧 Minimal Trusted Core
-Only essential definitions enter the formal layer.
-
-🟪 Proof‑First Architecture
-Every operator has a corresponding invariant and proof path.
+- 🟦 Separation of layers  
+- 🟩 Semantic stability  
+- 🟧 Minimal trusted core  
+- 🟪 Proof‑first architecture  
 
 ---
 
@@ -128,7 +120,6 @@ lean-toolchain
 
 🧾 Provenance Footer
 
-`
 Provenance:
 StructuralAI-Lean-Spine public-facing README authored within the Shared-Horizon
 collaboration membrane. Reflects architectural invariants defined in the
@@ -138,4 +129,3 @@ Version v1.0 recorded on 23 October 2026 (IST).
 `
 
 ---
-
