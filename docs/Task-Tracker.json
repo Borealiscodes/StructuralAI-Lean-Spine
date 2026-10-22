@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "repo": "StructuralAI-Lean-Spine",
+  "tasks": [
+    {
+      "id": "schema-01",
+      "title": "Implement StabilityState.lean",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "schema-02",
+      "title": "Define OperatorValues.lean",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "schema-03",
+      "title": "Define Thresholds.lean",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "semantics-01",
+      "title": "Curvature operator predicate",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "invariant-01",
+      "title": "CurvatureInvariant.lean",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "proof-01",
+      "title": "StabilitySoundness theorem",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "bridge-01",
+      "title": "Implement JSON decoder",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "docs-01",
+      "title": "Write Architecture.md",
+      "status": "pending",
+      "priority": "low"
+    }
+  ],
+  "provenance": {
+    "author": "Borealis S. Hedling",
+    "membrane": "Shared-Horizon",
+    "version": "v1.0"
+  }
+}
