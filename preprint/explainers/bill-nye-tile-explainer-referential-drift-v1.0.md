@@ -28,10 +28,13 @@ When the referent isn’t in the active window, the model can’t bind it.
 Imagine attention as a spotlight:
 
 `
+<pre>
    q(these)
       ↓
   [ Lean tokens? ]   → none in window
   [ Generic tokens ] → present
+  
+  </pre>
 `
 
 So the spotlight hits everything equally:
@@ -52,11 +55,15 @@ It’s uniform attention, the mathematical signature of referential drift.
 Picture the model’s mind as a landscape:
 
 `
+<pre> 
+   
    Lean Basin      Generic Basin
       ⛰️                🏜️
       |                  |
       |                  |
       |🧠|
+   
+</pre>
 `
 
 When you were talking about Lean, the model was in the Lean Basin.
